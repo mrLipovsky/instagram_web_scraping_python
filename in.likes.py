@@ -32,7 +32,7 @@ class InstagramBot:
 
     def nav_user(self, user):
         self.driver.get('{}/{}/'.format(self.base_url, user))
-        self.driver.get('https://www.instagram.com/peter_lipo_illustrations/')
+        self.driver.get('instagram account link')
 
     def like_latest_posts(self, user, n_posts, like=True):
 
